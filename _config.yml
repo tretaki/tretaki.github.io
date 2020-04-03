@@ -3,7 +3,7 @@ author:
   name: tretaki
   # email: your-email@domain.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  Figures on this page are updated every day at once a day at 01:00 (UTC).
+  COVID-19 Data
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -45,14 +45,9 @@ minima:
     #   instance: example.com
 
 # If you want to link only specific pages in your header, uncomment
-# this and add the path to the pages in order as they should show up
-header_pages:
-- africa.md
-- asia.md
-- europe.md
-- namerica.md
-- oceania.md
-- samerica.md
+# # this and add the path to the pages in order as they should show up
+# header_pages:
+# - about.md
 
 # Build settings
 theme: minima
