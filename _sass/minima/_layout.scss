@@ -29,13 +29,14 @@
 }
 
 .site-nav {
-  position: static;
+  position: absolute;
   top: 9px;
   right: $spacing-unit / 2;
   background-color: $background-color;
   border: 1px solid $brand-color-light;
   border-radius: 5px;
   text-align: right;
+  z-index: 1000;
 
   .nav-trigger {
       display: none;
@@ -59,7 +60,7 @@
     float: right;
     width: 36px;
     height: 36px;
-    z-index: 1000;
+    z-index: 2;
     cursor: pointer;
   }
 
