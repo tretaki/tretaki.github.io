@@ -19,6 +19,7 @@ The details for other continents and individual countries can be found on their 
 {%- if page.title -%}
     {%- if page.title == "Africa" -%}
         <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+    {%- elsif page.title == "World" -%}
     {%- else -%}
         , <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
     {%- endif -%}
@@ -30,6 +31,6 @@ The details for other continents and individual countries can be found on their 
 
 
 <br><br>
-Contributions of individual countries with most cases in the world.
+Per capita data and contributions of individual countries with most cases in the {{ page.title }}.
 
 {% include world_stacks.bokeh %}
