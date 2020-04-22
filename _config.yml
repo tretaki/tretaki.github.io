@@ -53,6 +53,7 @@ header_pages:
 - namerica.md
 - oceania.md
 - samerica.md
+- us.md
 
 # Build settings
 theme: minima
